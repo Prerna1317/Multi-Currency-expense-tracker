@@ -1,0 +1,69 @@
+.root {
+  -fx-font-family: "Segoe UI", "Inter", "Roboto";
+  -fx-font-size: 13px;
+  -fx-background-color: #f6f7fb;
+}
+
+.tool-bar {
+  -fx-background-color: linear-gradient(to bottom, #ffffff, #f1f3f6);
+  -fx-padding: 8 10;
+  -fx-border-color: #e2e6ee;
+  -fx-border-width: 0 0 1 0;
+}
+
+.text-field,
+.combo-box,
+.date-picker,
+.button {
+  -fx-background-radius: 8;
+  -fx-border-radius: 8;
+}
+
+.button {
+  -fx-background-color: #2563eb;
+  -fx-text-fill: white;
+}
+.button:hover {
+  -fx-background-color: #1e4fd6;
+}
+.button:default {
+  -fx-background-color: #16a34a;
+}
+
+.table-view {
+  -fx-background-color: white;
+  -fx-border-color: #e2e6ee;
+  -fx-border-radius: 12;
+  -fx-background-radius: 12;
+}
+.table-view .column-header-background {
+  -fx-background-color: #eef2f7;
+}
+.table-view .table-row-cell:hover {
+  -fx-background-color: #f3f6fb;
+}
+
+.total-badge {
+  -fx-background-color: #0f172a;
+  -fx-text-fill: white;
+  -fx-padding: 6 10;
+  -fx-background-radius: 10;
+  -fx-font-weight: 600;
+}
+
+/* Pie colors */
+.chart-pie .default-color0.chart-pie {
+  -fx-pie-color: #f97316;
+} /* Food */
+.chart-pie .default-color1.chart-pie {
+  -fx-pie-color: #0ea5e9;
+} /* Travel */
+.chart-pie .default-color2.chart-pie {
+  -fx-pie-color: #6366f1;
+} /* Bills */
+.chart-pie .default-color3.chart-pie {
+  -fx-pie-color: #22c55e;
+} /* Shopping */
+.chart-pie .default-color4.chart-pie {
+  -fx-pie-color: #a855f7;
+} /* Other */
